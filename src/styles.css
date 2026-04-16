@@ -33,6 +33,30 @@ body {
   text-align: center;
 }
 
+.rules-box {
+  margin: 0.75rem 0 1rem;
+  padding: 0.75rem;
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
+  background: #f8fbff;
+  text-align: left;
+}
+
+.rules-box h3 {
+  margin: 0 0 0.5rem;
+  color: #1e3a8a;
+}
+
+.rules-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: #334155;
+}
+
+.rules-list li {
+  margin: 0.25rem 0;
+}
+
 .muted {
   color: #475569;
 }
@@ -135,6 +159,23 @@ body {
   font-weight: 600;
 }
 
+.hearts {
+  display: flex;
+  gap: 0.35rem;
+  margin: 0 0 0.75rem;
+}
+
+.heart {
+  color: #ef4444;
+  opacity: 1;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.heart.faded {
+  opacity: 0.3;
+}
+
 .option-list {
   display: grid;
   gap: 0.6rem;
@@ -159,6 +200,12 @@ body {
 .option.selected {
   border-color: #2563eb;
   background: #eff6ff;
+}
+
+.option.wrong-selected {
+  border-color: #ef4444;
+  background: #fee2e2;
+  color: #991b1b;
 }
 
 .score-grid {
@@ -213,6 +260,11 @@ body {
   color: #14532d;
   border-radius: 10px;
   padding: 0.75rem;
+}
+
+.answer-feedback {
+  margin: 0 0 1rem;
+  font-weight: 700;
 }
 
 @keyframes fade-in {

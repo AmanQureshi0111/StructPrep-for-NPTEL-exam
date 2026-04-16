@@ -1,67 +1,67 @@
 [
     {
-        "question": "The credit for the first description of the cell goes to [cite: 5]",
+        "question": "The credit for the first description of the cell goes to ______ .",
         "options": [
-            "Robert Hooke [cite: 6]",
-            "Hans Jensen [cite: 7]",
-            "Antonie van Leeuwenhoek [cite: 8]",
-            "Zacharias [cite: 9]"
+            "Robert Hooke",
+            "Hans Jensen",
+            "Antonie van Leeuwenhoek",
+            "Zacharias"
         ],
         "correctAnswer": 0,
         "week": 1
     },
     {
-        "question": "Who proposed the laws of heredity? [cite: 11]",
+        "question": "Who proposed the laws of heredity?",
         "options": [
-            "Gregor Mendel [cite: 12]",
-            "Wilhelm Johanssen [cite: 13]",
-            "William Bateson [cite: 14]",
-            "Charles Darwin [cite: 15]"
+            "Gregor Mendel",
+            "Wilhelm Johanssen",
+            "William Bateson",
+            "Charles Darwin"
         ],
         "correctAnswer": 0,
         "week": 1
     },
     {
-        "question": "Which class of protein is involved in catalysis of biological process? [cite: 17]",
+        "question": "Which class of protein is involved in catalysis of biological process?",
         "options": [
-            "Sensor proteins [cite: 18]",
-            "Enzymatic protein [cite: 19]",
-            "Structural protein [cite: 20]",
-            "Storage protein [cite: 21]"
+            "Sensor proteins",
+            "Enzymatic protein",
+            "Structural protein",
+            "Storage protein"
         ],
         "correctAnswer": 1,
         "week": 1
     },
     {
-        "question": "Which one of the following is not a function of protein? [cite: 23]",
+        "question": "Which one of the following is not a function of protein?",
         "options": [
-            "Cellular communications [cite: 24]",
-            "Defense against foreign substances [cite: 25]",
-            "Selective acceleration of chemical reaction [cite: 26]",
-            "Store genetic information [cite: 27]"
+            "Cellular communications",
+            "Defense against foreign substances",
+            "Selective acceleration of chemical reaction",
+            "Store genetic information"
         ],
         "correctAnswer": 3,
         "week": 1
     },
     {
-        "question": "Which of the following is the building block of proteins? [cite: 29]",
+        "question": "Which of the following is the building block of proteins?",
         "options": [
-            "Nucleotides [cite: 30]",
-            "Monosaccharides [cite: 31]",
-            "Amino acid [cite: 32]",
-            "Fatty acid [cite: 33]"
+            "Nucleotides",
+            "Monosaccharides",
+            "Amino acid",
+            "Fatty acid"
         ],
         "correctAnswer": 2,
         "week": 1
     },
     {
-        "question": "Which of these are type of biological macromolecule? [cite: 35]",
+        "question": "Which of these are type of biological macromolecule?",
         "options": [
-            "Protein [cite: 36]",
-            "Carbohydrate [cite: 37]",
-            "Sugar [cite: 40]",
-            "RNA [cite: 41]",
-            "Amino acid [cite: 42]"
+            "Protein",
+            "Carbohydrate",
+            "Sugar",
+            "RNA",
+            "Amino acid "
         ],
         "correctAnswer": [
             0,
@@ -71,7 +71,7 @@
         "week": 1
     },
     {
-        "question": "During the formation of a peptide, which type of bond is formed between two amino acids? [cite: 44]",
+        "question": "During the formation of a peptide, which type of bond is formed between two amino acids?",
         "options": [
             "Phosphodiester bond [cite: 45]",
             "Glycosylic bond [cite: 46]",
@@ -129,7 +129,7 @@
         "week": 2
     },
     {
-        "question": "is the achiral amino acid [cite: 80, 81]",
+        "question": "______ is the achiral amino acid",
         "options": [
             "Valine [cite: 82]",
             "Methionine [cite: 83]",
@@ -171,7 +171,7 @@
         "week": 2
     },
     {
-        "question": "Peptide bond is formed between the amino and group of two successive amino acids. [cite: 103, 107]",
+        "question": "Peptide bond is formed between the amino and ______ group of two successive amino acids.",
         "options": [
             "Carboxyl [cite: 105]",
             "Hydrogen [cite: 106]",
@@ -226,7 +226,7 @@
         "week": 2
     },
     {
-        "question": "Histidine kinases phosphotransfer to protein. [cite: 142, 148]",
+        "question": "Histidine kinases phosphotransfer to ______ protein.",
         "options": [
             "kinase [cite: 143]",
             "ATPase [cite: 144]",
@@ -259,7 +259,7 @@
         "week": 3
     },
     {
-        "question": "Which artificial inducer binds to LacI repressor protein, and induces overexpression of target protein? [cite: 161, 162]",
+        "question": "Which artificial inducer binds to LacI repressor protein, and induces overexpression of target protein?",
         "options": [
             "X-gal [cite: 163]",
             "IPTG [cite: 164]",
@@ -270,7 +270,7 @@
         "week": 3
     },
     {
-        "question": "Smallest building block of crystal is called [cite: 168]",
+        "question": "Smallest building block of crystal is called _______ .",
         "options": [
             "Lattice [cite: 169]",
             "Space group [cite: 170]",
@@ -314,7 +314,7 @@
         "week": 3
     },
     {
-        "question": "In X-ray crystallography, a crystal mounted in a cryo loop is attached to which part of the diffractometer? [cite: 193, 194]",
+        "question": "In X-ray crystallography, a crystal mounted in a cryo loop is attached to which part of the diffractometer?",
         "options": [
             "Detector [cite: 195]",
             "Stopper [cite: 196]",
@@ -325,7 +325,7 @@
         "week": 3
     },
     {
-        "question": "When fast moving electrons slams metallic target, it loses speed and some part of kinetic energy transforms into X-rays. [cite: 200, 201]",
+        "question": "When fast moving electrons slams metallic target, it loses speed and some part of kinetic energy transforms into X-rays.",
         "options": [
             "True [cite: 202]",
             "False [cite: 203]"
@@ -378,7 +378,7 @@
         "week": 4
     },
     {
-        "question": "In rotation axis, if an object is moved by 180°, it is called [cite: 236]",
+        "question": "In rotation axis, if an object is moved by 180°, it is called ______ .[cite: 236]",
         "options": [
             "1-fold rotation [cite: 240]",
             "2-fold rotation [cite: 242]",
@@ -422,8 +422,8 @@
     {
         "question": "Which of the following statement is correct about Collimator? [cite: 263]",
         "options": [
-            "It narrows the beam of particle so that direction of motion becomes more aligned to specific direction [cite: 264, 265]",
-            "It produces X-ray [cite: 266]",
+            "It narrows the beam of particle so that direction of motion becomes more aligned to specific direction",
+            "It produces X-ray",
             "It spreads X-ray to large area [cite: 267]",
             "It increases the divergence of X-ray beam [cite: 268]"
         ],
@@ -442,7 +442,7 @@
         "week": 4
     },
     {
-        "question": "In a crystal, the ordered, periodic arrangement of molecules produces constructive interference. [cite: 283, 284]",
+        "question": "In a crystal, the ordered, periodic arrangement of molecules produces ______ interference.",
         "options": [
             "Constructive [cite: 284]",
             "Destructive [cite: 285]",
@@ -453,7 +453,7 @@
         "week": 5
     },
     {
-        "question": "In Bragg's law (nλ=2dsin θ), what does 'd' stands for? [cite: 289]",
+        "question": "In Bragg's law (nλ=2dsinθ), what does 'd' stands for? [cite: 289]",
         "options": [
             "Order of diffraction [cite: 290]",
             "Order of deviation [cite: 291]",
@@ -486,7 +486,7 @@
         "week": 5
     },
     {
-        "question": "In X-ray crystallography, Ewald sphere demonstrates the relationship between: [cite: 307]",
+        "question": "In X-ray crystallography, Ewald sphere demonstrates the relationship between ______ . [cite: 307]",
         "options": [
             "The wavevector of the incident and diffracted X-ray beams [cite: 308]",
             "The diffraction angle for a given reflection [cite: 309]",
@@ -515,7 +515,7 @@
         "question": "What is R-factor (Rwork)? [cite: 321]",
         "options": [
             "A measure of crystal purity [cite: 322]",
-            "A measure of agreement between the crystallographic model and the experimental diffraction data [cite: 323, 324]",
+            "A measure of agreement between the crystallographic model and the experimental diffraction data ",
             "A measure of radiation damage [cite: 325]",
             "A measure of the crystal mosaicity [cite: 326]"
         ],
@@ -578,7 +578,7 @@
         "week": 6
     },
     {
-        "question": "NMR characterizes organic and biological molecules by identifying carbon-hydrogen frameworks within molecules. [cite: 366, 367]",
+        "question": "NMR characterizes organic and biological molecules by identifying carbon-hydrogen frameworks within molecules.",
         "options": [
             "True [cite: 368]",
             "False [cite: 369]"
@@ -629,7 +629,7 @@
         "week": 6
     },
     {
-        "question": "In physics, the precession of the magnetic moment of an object about an external magnetic field is called: [cite: 395, 396]",
+        "question": "In physics, the precession of the magnetic moment of an object about an external magnetic field is called:",
         "options": [
             "Diffraction [cite: 397]",
             "Resonance [cite: 398]",
@@ -684,7 +684,7 @@
         "week": 7
     },
     {
-        "question": "The speed of light in a vacuum (free space) is: [cite: 430]",
+        "question": "The speed of light in a vacuum (free space) is ______ . [cite: 430]",
         "options": [
             "3×10^8 m/s [cite: 431]",
             "3×10^9 m/s [cite: 432]",
@@ -695,7 +695,7 @@
         "week": 7
     },
     {
-        "question": "Protein UV absorbance at 280 nm mainly arises from: [cite: 436]",
+        "question": "Protein UV absorbance at 280 nm mainly arises from ______. [cite: 436]",
         "options": [
             "Charged amino acid residues [cite: 437]",
             "Peptide bonds [cite: 438]",
@@ -706,7 +706,7 @@
         "week": 7
     },
     {
-        "question": "Circular Dichroism (CD) spectroscopy measures: [cite: 442]",
+        "question": "Circular Dichroism (CD) spectroscopy measures ______. [cite: 442]",
         "options": [
             "Difference between the absorbance of left and right circularly unpolarized light [cite: 443]",
             "Difference between the absorbance of left and right circularly polarized light [cite: 444]",
@@ -717,7 +717,7 @@
         "week": 7
     },
     {
-        "question": "Fluorescence arises when a molecule returns from: [cite: 448]",
+        "question": "Fluorescence arises when a molecule returns from ______ . [cite: 448]",
         "options": [
             "S1 to T1 to singlet ground state [cite: 450]",
             "Si to So without change in spin [cite: 451]",
@@ -728,7 +728,7 @@
         "week": 7
     },
     {
-        "question": "Quantum yield of fluorescence is defined as: [cite: 457]",
+        "question": "Quantum yield of fluorescence is defined as ______ . [cite: 457]",
         "options": [
             "Number of photons absorbed / Number of Photons emitted [cite: 458]",
             "Number of Photons emitted / Number of photons absorbed [cite: 459]",
@@ -739,7 +739,7 @@
         "week": 7
     },
     {
-        "question": "Which spectroscopy is most useful in providing information regarding the presence or absence of specific functional groups? [cite: 460, 461]",
+        "question": "Which spectroscopy is most useful in providing information regarding the presence or absence of specific functional groups?",
         "options": [
             "UV-Vis Spectroscopy [cite: 462]",
             "X-ray [cite: 463]",
@@ -750,7 +750,7 @@
         "week": 7
     },
     {
-        "question": "For proteins with disulfide (S-S bridges), Raman bends are located in the spectral range of [cite: 467, 468]",
+        "question": "For proteins with disulfide (S-S bridges), Raman bends are located in the spectral range of ______ .",
         "options": [
             "400-450 cm⁻¹ [cite: 469]",
             "500-550 cm⁻¹ [cite: 470]",
@@ -915,7 +915,7 @@
         "week": 9
     },
     {
-        "question": "Which structural determination technique contributes the largest number of entries in the PDB? [cite: 569, 570]",
+        "question": "Which structural determination technique contributes the largest number of entries in the PDB?",
         "options": [
             "EM [cite: 571]",
             "NMR [cite: 572]",
@@ -994,10 +994,10 @@
     {
         "question": "A hydrogen bond is primarily: [cite: 620]",
         "options": [
-            "Electrostatic force of attraction between a hydrogen (H) atom and another electronegative atom bearing a lone pair of electrons [cite: 621, 622]",
+            "Electrostatic force of attraction between a hydrogen (H) atom and another electronegative atom bearing a lone pair of electrons",
             "Electrostatic force of attraction between two hydrogen (H) atoms [cite: 623]",
             "Electrostatic force of attraction between two electronegative atoms [cite: 624]",
-            "Electrostatic force of attraction between two electronegative atoms, out of which one bears a lone pair of electrons [cite: 625, 626]"
+            "Electrostatic force of attraction between two electronegative atoms, out of which one bears a lone pair of electrons "
         ],
         "correctAnswer": 0,
         "week": 10
@@ -1047,7 +1047,7 @@
         "week": 10
     },
     {
-        "question": "Which ensemble maintains a constant Number of particles, Temperature and Volume? [cite: 652, 653]",
+        "question": "Which ensemble maintains a constant Number of particles, Temperature and Volume?",
         "options": [
             "NVE [cite: 654]",
             "NPT [cite: 655]",
@@ -1069,7 +1069,7 @@
         "week": 10
     },
     {
-        "question": "During system processing in GROMACS, which command is responsible for converting PDB to a processed GROMACS structure? [cite: 667, 668]",
+        "question": "During system processing in GROMACS, which command is responsible for converting PDB to a processed GROMACS structure? ",
         "options": [
             "editconf [cite: 669]",
             "solvate [cite: 670]",
@@ -1210,5 +1210,115 @@
         ],
         "correctAnswer": 0,
         "week": 11
+    },
+    {
+        "question": "Which statement best reflects the fundamental idea of drug discovery? [cite: 758]",
+        "options": [
+            "Major biological effects arise only from large chemical modifications [cite: 759]",
+            "Small chemical changes can greatly influence biological outcomes [cite: 760]",
+            "Drug discovery ignores molecular structure [cite: 761]",
+            "Drug discovery relies exclusively on natural products [cite: 762]"
+        ],
+        "correctAnswer": 1,
+        "week": 12
+    },
+    {
+        "question": "Nucleoside analogues act as drugs primarily because they: [cite: 763]",
+        "options": [
+            "Block DNA chain synthesis by mimicking natural nucleosides [cite: 763]",
+            "Strengthen DNA polymerase activity [cite: 764]",
+            "Promote rapid DNA repair [cite: 765]",
+            "Remove hydrogen bonding in DNA [cite: 766]"
+        ],
+        "correctAnswer": 0,
+        "week": 12
+    },
+    {
+        "question": "The drug discovery process is historically divided into: [cite: 768]",
+        "options": [
+            "Empirical and theoretical methods [cite: 769]",
+            "Traditional and rational drug discovery [cite: 770]",
+            "Computational and non-computational methods [cite: 771]",
+            "Molecular and cellular discovery phases [cite: 772]"
+        ],
+        "correctAnswer": 1,
+        "week": 12
+    },
+    {
+        "question": "Which of the following is NOT a method used in traditional drug discovery? [cite: 774]",
+        "options": [
+            "EthnoPharmacology Approach [cite: 775]",
+            "Random Screening [cite: 776]",
+            "By serendipitous discovery [cite: 777]",
+            "Docking-based virtual screening [cite: 778]"
+        ],
+        "correctAnswer": 3,
+        "week": 12
+    },
+    {
+        "question": "QSAR models relate: [cite: 780]",
+        "options": [
+            "The potency of the response variable (Y) is determined by the predictor variables (X). [cite: 781]",
+            "Protein sequence to protein folding [cite: 782]",
+            "Pharmacodynamics to toxicity [cite: 783]",
+            "Pharmacokinetics to toxicity [cite: 784]"
+        ],
+        "correctAnswer": 0,
+        "week": 12
+    },
+    {
+        "question": "Which is NOT an assumption of QSAR modelling? [cite: 786]",
+        "options": [
+            "The binding site is identical for all modeled compounds [cite: 787]",
+            "The proposed conformation is bioactive [cite: 788]",
+            "Metabolites primarily determine biological effect [cite: 789]",
+            "Solvent effects are not considered [cite: 790]"
+        ],
+        "correctAnswer": 2,
+        "week": 12
+    },
+    {
+        "question": "Virtual screening is primarily used to: [cite: 794]",
+        "options": [
+            "Predict protein folding pathways [cite: 795]",
+            "Search large molecular libraries to identify an effective binder to a drug [cite: 796]",
+            "Determine ligand half-life in vivo [cite: 797]",
+            "Measure toxicity experimentally [cite: 798]"
+        ],
+        "correctAnswer": 1,
+        "week": 12
+    },
+    {
+        "question": "In a docking workflow, the grid box is used to: [cite: 800]",
+        "options": [
+            "Visualise protein secondary structure [cite: 801]",
+            "Determine pKa values of residues [cite: 802]",
+            "Optimise hydrogen bond angles [cite: 803]",
+            "Define the receptor's binding region for ligand search [cite: 804]"
+        ],
+        "correctAnswer": 3,
+        "week": 12
+    },
+    {
+        "question": "ADME/Tox includes all EXCEPT: [cite: 805]",
+        "options": [
+            "Absorption [cite: 806]",
+            "Metabolism [cite: 807]",
+            "Evolution [cite: 808]",
+            "Toxicity [cite: 809]"
+        ],
+        "correctAnswer": 2,
+        "week": 12
+    },
+    {
+        "question": "BlaC is considered an attractive target for TB therapy because: [cite: 811]",
+        "options": [
+            "It is unrelated to resistance [cite: 811]",
+            "It belongs to a class of enzymes for which inhibitors are effective [cite: 812]",
+            "It is not expressed in clinical isolates [cite: 813]",
+            "It is easily degraded by host enzymes [cite: 814]"
+        ],
+        "correctAnswer": 1,
+        "week": 12
     }
 ]

@@ -14,6 +14,33 @@ function getPerformanceMessage(percentage) {
   return "Keep going! Every attempt makes you stronger.";
 }
 
+function toAnswerArray(answer) {
+  if (Array.isArray(answer)) {
+    return [...new Set(answer.filter((index) => typeof index === "number"))].sort((a, b) => a - b);
+  }
+  if (typeof answer === "number") {
+    return [answer];
+  }
+  return [];
+}
+
+function isCorrectAnswer(selected, expected) {
+  const selectedIndices = toAnswerArray(selected);
+  const expectedIndices = toAnswerArray(expected);
+  if (selectedIndices.length !== expectedIndices.length) {
+    return false;
+  }
+  return selectedIndices.every((value, index) => value === expectedIndices[index]);
+}
+
+function formatAnswer(options, answer) {
+  const answerIndices = toAnswerArray(answer);
+  if (answerIndices.length === 0) {
+    return "Not answered";
+  }
+  return answerIndices.map((index) => options[index]).filter(Boolean).join(", ");
+}
+
 function ResultPage() {
   const navigate = useNavigate();
   const { state } = useLocation();
@@ -29,7 +56,7 @@ function ResultPage() {
 
     questions.forEach((question, index) => {
       const selected = answers[index];
-      if (selected === question.correctAnswer) {
+      if (isCorrectAnswer(selected, question.correctAnswer)) {
         correct += 1;
       } else {
         wrongQuestions.push({
@@ -95,11 +122,10 @@ function ResultPage() {
               <article key={item.question} className="wrong-item">
                 <p className="wrong-question">{item.question}</p>
                 <p>
-                  Your answer:{" "}
-                  <span className="danger">{item.selected !== undefined ? item.options[item.selected] : "Not answered"}</span>
+                  Your answer: <span className="danger">{formatAnswer(item.options, item.selected)}</span>
                 </p>
                 <p>
-                  Correct answer: <span className="success">{item.options[item.correctAnswer]}</span>
+                  Correct answer: <span className="success">{formatAnswer(item.options, item.correctAnswer)}</span>
                 </p>
               </article>
             ))}
