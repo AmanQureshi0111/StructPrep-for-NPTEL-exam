@@ -1,0 +1,1214 @@
+[
+    {
+        "question": "The credit for the first description of the cell goes to [cite: 5]",
+        "options": [
+            "Robert Hooke [cite: 6]",
+            "Hans Jensen [cite: 7]",
+            "Antonie van Leeuwenhoek [cite: 8]",
+            "Zacharias [cite: 9]"
+        ],
+        "correctAnswer": 0,
+        "week": 1
+    },
+    {
+        "question": "Who proposed the laws of heredity? [cite: 11]",
+        "options": [
+            "Gregor Mendel [cite: 12]",
+            "Wilhelm Johanssen [cite: 13]",
+            "William Bateson [cite: 14]",
+            "Charles Darwin [cite: 15]"
+        ],
+        "correctAnswer": 0,
+        "week": 1
+    },
+    {
+        "question": "Which class of protein is involved in catalysis of biological process? [cite: 17]",
+        "options": [
+            "Sensor proteins [cite: 18]",
+            "Enzymatic protein [cite: 19]",
+            "Structural protein [cite: 20]",
+            "Storage protein [cite: 21]"
+        ],
+        "correctAnswer": 1,
+        "week": 1
+    },
+    {
+        "question": "Which one of the following is not a function of protein? [cite: 23]",
+        "options": [
+            "Cellular communications [cite: 24]",
+            "Defense against foreign substances [cite: 25]",
+            "Selective acceleration of chemical reaction [cite: 26]",
+            "Store genetic information [cite: 27]"
+        ],
+        "correctAnswer": 3,
+        "week": 1
+    },
+    {
+        "question": "Which of the following is the building block of proteins? [cite: 29]",
+        "options": [
+            "Nucleotides [cite: 30]",
+            "Monosaccharides [cite: 31]",
+            "Amino acid [cite: 32]",
+            "Fatty acid [cite: 33]"
+        ],
+        "correctAnswer": 2,
+        "week": 1
+    },
+    {
+        "question": "Which of these are type of biological macromolecule? [cite: 35]",
+        "options": [
+            "Protein [cite: 36]",
+            "Carbohydrate [cite: 37]",
+            "Sugar [cite: 40]",
+            "RNA [cite: 41]",
+            "Amino acid [cite: 42]"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            3
+        ],
+        "week": 1
+    },
+    {
+        "question": "During the formation of a peptide, which type of bond is formed between two amino acids? [cite: 44]",
+        "options": [
+            "Phosphodiester bond [cite: 45]",
+            "Glycosylic bond [cite: 46]",
+            "Peptide bond [cite: 47]",
+            "Disulfide bond [cite: 48]"
+        ],
+        "correctAnswer": 2,
+        "week": 1
+    },
+    {
+        "question": "Which of the following database stores protein sequence information? [cite: 50]",
+        "options": [
+            "GenPept [cite: 51]",
+            "Blast [cite: 52]",
+            "Google [cite: 53]",
+            "AlphaFold [cite: 54]"
+        ],
+        "correctAnswer": 0,
+        "week": 1
+    },
+    {
+        "question": "Which of the following is protein structure database? [cite: 56]",
+        "options": [
+            "EMBL [cite: 57]",
+            "Swiss-Prot [cite: 58]",
+            "PDB [cite: 59]",
+            "GeneBank [cite: 60]"
+        ],
+        "correctAnswer": 2,
+        "week": 1
+    },
+    {
+        "question": "Which of the following method is used to determine 3D structure of protein? [cite: 62]",
+        "options": [
+            "X-ray [cite: 64]",
+            "NMR [cite: 65]",
+            "UV-spectroscopy [cite: 66]",
+            "SPR [cite: 67]",
+            "Cryo-EM [cite: 68]"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            4
+        ],
+        "week": 1
+    },
+    {
+        "question": "Amino acids are uniquely different due to the presence of different R-group. [cite: 76]",
+        "options": [
+            "True [cite: 77]",
+            "False [cite: 78]"
+        ],
+        "correctAnswer": 0,
+        "week": 2
+    },
+    {
+        "question": "is the achiral amino acid [cite: 80, 81]",
+        "options": [
+            "Valine [cite: 82]",
+            "Methionine [cite: 83]",
+            "Proline [cite: 84]",
+            "Glycine [cite: 85]"
+        ],
+        "correctAnswer": 3,
+        "week": 2
+    },
+    {
+        "question": "Which of the following is sulphur containing amino acid? [cite: 87]",
+        "options": [
+            "Methionine [cite: 88]",
+            "Glycine [cite: 89]",
+            "Valine [cite: 90]",
+            "Phenylalanine [cite: 91]"
+        ],
+        "correctAnswer": 0,
+        "week": 2
+    },
+    {
+        "question": "Which of the following is non-polar amino acid? [cite: 93]",
+        "options": [
+            "Serine [cite: 94]",
+            "Valine [cite: 95]",
+            "Cysteine [cite: 96]",
+            "Tyrosine [cite: 97]"
+        ],
+        "correctAnswer": 1,
+        "week": 2
+    },
+    {
+        "question": "N-acetylglucosamine (NAG) is found in bacterial cell wall. [cite: 99]",
+        "options": [
+            "True [cite: 100]",
+            "False [cite: 101]"
+        ],
+        "correctAnswer": 0,
+        "week": 2
+    },
+    {
+        "question": "Peptide bond is formed between the amino and group of two successive amino acids. [cite: 103, 107]",
+        "options": [
+            "Carboxyl [cite: 105]",
+            "Hydrogen [cite: 106]",
+            "Methyl [cite: 110]",
+            "Thiol [cite: 110]"
+        ],
+        "correctAnswer": 0,
+        "week": 2
+    },
+    {
+        "question": "In Alpha-Helix formation, what is the rise per turn? [cite: 112]",
+        "options": [
+            "5.4 Å [cite: 113]",
+            "5 Å [cite: 114]",
+            "4.5 Å [cite: 115]",
+            "4 Å [cite: 116]"
+        ],
+        "correctAnswer": 0,
+        "week": 2
+    },
+    {
+        "question": "In Alpha-helix what is the distance between the consecutive amino acid? [cite: 118]",
+        "options": [
+            "5.1 Å [cite: 119]",
+            "1.5 Å [cite: 120]",
+            "5.4 Å [cite: 121]",
+            "4.5 Å [cite: 122]"
+        ],
+        "correctAnswer": 1,
+        "week": 2
+    },
+    {
+        "question": "Which of the following is globular protein? [cite: 124]",
+        "options": [
+            "Hemoglobin [cite: 125]",
+            "Keratin [cite: 126]",
+            "Collagen [cite: 127]",
+            "Fibroin [cite: 128]"
+        ],
+        "correctAnswer": 0,
+        "week": 2
+    },
+    {
+        "question": "Methionine is unable to form a disulfide bond due to presence of which group? [cite: 130]",
+        "options": [
+            "Methyl group [cite: 131]",
+            "Thiol group [cite: 132]",
+            "Amino group [cite: 133]",
+            "Hydrogen [cite: 134]"
+        ],
+        "correctAnswer": 0,
+        "week": 2
+    },
+    {
+        "question": "Histidine kinases phosphotransfer to protein. [cite: 142, 148]",
+        "options": [
+            "kinase [cite: 143]",
+            "ATPase [cite: 144]",
+            "Response regulator [cite: 145]",
+            "Helicase [cite: 146]"
+        ],
+        "correctAnswer": 2,
+        "week": 3
+    },
+    {
+        "question": "Which of the enzyme is required to digest target DNA [cite: 149]",
+        "options": [
+            "Restriction endonuclease [cite: 150]",
+            "T4 DNA ligase [cite: 151]",
+            "Taq polymerase [cite: 152]",
+            "Amylase [cite: 153]"
+        ],
+        "correctAnswer": 0,
+        "week": 3
+    },
+    {
+        "question": "Which of the following is start codon? [cite: 155]",
+        "options": [
+            "GTA [cite: 156]",
+            "ATG [cite: 157]",
+            "GGT [cite: 158]",
+            "TGT [cite: 159]"
+        ],
+        "correctAnswer": 1,
+        "week": 3
+    },
+    {
+        "question": "Which artificial inducer binds to LacI repressor protein, and induces overexpression of target protein? [cite: 161, 162]",
+        "options": [
+            "X-gal [cite: 163]",
+            "IPTG [cite: 164]",
+            "DTT [cite: 165]",
+            "Lactose [cite: 166]"
+        ],
+        "correctAnswer": 1,
+        "week": 3
+    },
+    {
+        "question": "Smallest building block of crystal is called [cite: 168]",
+        "options": [
+            "Lattice [cite: 169]",
+            "Space group [cite: 170]",
+            "Unit cell [cite: 171]",
+            "Asymmetric unit [cite: 172]"
+        ],
+        "correctAnswer": 2,
+        "week": 3
+    },
+    {
+        "question": "Which of the strategy can help increase the chance of obtaining protein crystals? [cite: 174]",
+        "options": [
+            "Increasing salt during protein purification [cite: 174]",
+            "Keeping protein in highly aggregated state [cite: 177]",
+            "Using only one crystallization condition [cite: 178]",
+            "Eliminating mobile/flexible region at either of the terminus [cite: 179]"
+        ],
+        "correctAnswer": 3,
+        "week": 3
+    },
+    {
+        "question": "What is the principle behind hanging drop vapour diffusion setup? [cite: 181]",
+        "options": [
+            "Equilibration proceeds until the vapour pressure in the droplet equals that of reservoir [cite: 182]",
+            "Directly precipitating the protein by high salt addition [cite: 183]",
+            "Reverse condensation to decrease protein concentration in droplet [cite: 184]",
+            "Keeping protein in an undersaturated state [cite: 185]"
+        ],
+        "correctAnswer": 0,
+        "week": 3
+    },
+    {
+        "question": "How to differentiate between protein and salt crystal? [cite: 187]",
+        "options": [
+            "Protein crystals will be bigger in size [cite: 188]",
+            "Protein crystals will be easily crushed into pieces [cite: 189]",
+            "Protein crystal will be single whereas salt crystal will be in cluster [cite: 190]",
+            "Protein crystal dry intact if dehydrated [cite: 191]"
+        ],
+        "correctAnswer": 1,
+        "week": 3
+    },
+    {
+        "question": "In X-ray crystallography, a crystal mounted in a cryo loop is attached to which part of the diffractometer? [cite: 193, 194]",
+        "options": [
+            "Detector [cite: 195]",
+            "Stopper [cite: 196]",
+            "Goniometer [cite: 197]",
+            "Beam head [cite: 198]"
+        ],
+        "correctAnswer": 2,
+        "week": 3
+    },
+    {
+        "question": "When fast moving electrons slams metallic target, it loses speed and some part of kinetic energy transforms into X-rays. [cite: 200, 201]",
+        "options": [
+            "True [cite: 202]",
+            "False [cite: 203]"
+        ],
+        "correctAnswer": 0,
+        "week": 3
+    },
+    {
+        "question": "Which of the following statement about X-ray production is true? [cite: 212]",
+        "options": [
+            "During x-ray production, electron bean is focused from cathode to anode by focusing cup [cite: 213]",
+            "X-rays are generated when electron pass near the anode without collecting it [cite: 214]",
+            "The anode emits electron towards the cathode to produce X-ray [cite: 215]",
+            "Electron beam is focused from anode to cathode by focusing cup [cite: 216]"
+        ],
+        "correctAnswer": 0,
+        "week": 4
+    },
+    {
+        "question": "What is the wavelength of the X-ray produced by CuKa? [cite: 218]",
+        "options": [
+            "1.45 Å [cite: 219]",
+            "1.74 Å [cite: 220]",
+            "1.54 Å [cite: 221]",
+            "1.44 Å [cite: 222]"
+        ],
+        "correctAnswer": 2,
+        "week": 4
+    },
+    {
+        "question": "An array of points in space such that every point has identical surroundings is called: [cite: 224]",
+        "options": [
+            "Space lattice [cite: 225]",
+            "Unit cell [cite: 226]",
+            "Symmetry [cite: 227]",
+            "Resolution [cite: 228]"
+        ],
+        "correctAnswer": 0,
+        "week": 4
+    },
+    {
+        "question": "How many unique Bravais Lattices are there in crystal system? [cite: 230]",
+        "options": [
+            "14 [cite: 231]",
+            "13 [cite: 232]",
+            "12 [cite: 233]",
+            "11 [cite: 234]"
+        ],
+        "correctAnswer": 0,
+        "week": 4
+    },
+    {
+        "question": "In rotation axis, if an object is moved by 180°, it is called [cite: 236]",
+        "options": [
+            "1-fold rotation [cite: 240]",
+            "2-fold rotation [cite: 242]",
+            "3-fold rotation [cite: 244]",
+            "4-fold rotation [cite: 245]"
+        ],
+        "correctAnswer": 1,
+        "week": 4
+    },
+    {
+        "question": "Orthorhombic crystal system has how many Bravais Lattices? [cite: 247]",
+        "options": [
+            "3 [cite: 248]",
+            "2 [cite: 249]",
+            "1 [cite: 250]",
+            "4 [cite: 251]"
+        ],
+        "correctAnswer": 3,
+        "week": 4
+    },
+    {
+        "question": "A spatial transformation can be expressed as an operator that changes the coordinates of every point in the object the same way. [cite: 253]",
+        "options": [
+            "True [cite: 254]",
+            "False [cite: 255]"
+        ],
+        "correctAnswer": 0,
+        "week": 4
+    },
+    {
+        "question": "Which instrument was used in early 1900s as a X-ray source, producing X-rays by ionization of residual air in the tube? [cite: 257]",
+        "options": [
+            "Coolidge tube [cite: 258]",
+            "Crookes tube [cite: 259]",
+            "Geiger-Muller tube [cite: 260]",
+            "Bragg Brentano tube [cite: 261]"
+        ],
+        "correctAnswer": 1,
+        "week": 4
+    },
+    {
+        "question": "Which of the following statement is correct about Collimator? [cite: 263]",
+        "options": [
+            "It narrows the beam of particle so that direction of motion becomes more aligned to specific direction [cite: 264, 265]",
+            "It produces X-ray [cite: 266]",
+            "It spreads X-ray to large area [cite: 267]",
+            "It increases the divergence of X-ray beam [cite: 268]"
+        ],
+        "correctAnswer": 0,
+        "week": 4
+    },
+    {
+        "question": "Which metal is used as interface filter when X-ray producing anode is made up of Cu? [cite: 271]",
+        "options": [
+            "Fe [cite: 272]",
+            "Mn [cite: 273]",
+            "Ni [cite: 274]",
+            "V [cite: 275]"
+        ],
+        "correctAnswer": 2,
+        "week": 4
+    },
+    {
+        "question": "In a crystal, the ordered, periodic arrangement of molecules produces constructive interference. [cite: 283, 284]",
+        "options": [
+            "Constructive [cite: 284]",
+            "Destructive [cite: 285]",
+            "Rotational [cite: 286]",
+            "Translational [cite: 287]"
+        ],
+        "correctAnswer": 0,
+        "week": 5
+    },
+    {
+        "question": "In Bragg's law (nλ=2dsin θ), what does 'd' stands for? [cite: 289]",
+        "options": [
+            "Order of diffraction [cite: 290]",
+            "Order of deviation [cite: 291]",
+            "Spacing of planes [cite: 292]",
+            "Spacing of unit cells [cite: 293]"
+        ],
+        "correctAnswer": 2,
+        "week": 5
+    },
+    {
+        "question": "What is the change between the two wavelength is called? [cite: 295]",
+        "options": [
+            "Scattering vector [cite: 296]",
+            "Transferred wavevector [cite: 297]",
+            "Both scattering and transferred wavevector [cite: 298]",
+            "Symmetry vector [cite: 299]"
+        ],
+        "correctAnswer": 2,
+        "week": 5
+    },
+    {
+        "question": "What is indexing in X-ray crystallography? [cite: 301]",
+        "options": [
+            "Determining intensities of each spot [cite: 302]",
+            "Averaging diffraction data [cite: 303]",
+            "Scaling data [cite: 304]",
+            "Finding unit cell, orientation and space group [cite: 305]"
+        ],
+        "correctAnswer": 3,
+        "week": 5
+    },
+    {
+        "question": "In X-ray crystallography, Ewald sphere demonstrates the relationship between: [cite: 307]",
+        "options": [
+            "The wavevector of the incident and diffracted X-ray beams [cite: 308]",
+            "The diffraction angle for a given reflection [cite: 309]",
+            "The reciprocal lattice of crystal [cite: 310]",
+            "Between observed electron density and experimental model [cite: 313]"
+        ],
+        "correctAnswer": [
+            0,
+            1,
+            2
+        ],
+        "week": 5
+    },
+    {
+        "question": "What is the purpose of using Molecular Replacement method during structure determination? [cite: 315]",
+        "options": [
+            "To determine molecular weight of protein [cite: 316]",
+            "To collect high resolution diffraction data [cite: 317]",
+            "To improve mosaicity of crystal [cite: 318]",
+            "To solve phase problem using known homologous structure [cite: 319]"
+        ],
+        "correctAnswer": 3,
+        "week": 5
+    },
+    {
+        "question": "What is R-factor (Rwork)? [cite: 321]",
+        "options": [
+            "A measure of crystal purity [cite: 322]",
+            "A measure of agreement between the crystallographic model and the experimental diffraction data [cite: 323, 324]",
+            "A measure of radiation damage [cite: 325]",
+            "A measure of the crystal mosaicity [cite: 326]"
+        ],
+        "correctAnswer": 1,
+        "week": 5
+    },
+    {
+        "question": "What do high B-factor indicate in X-ray crystallography? [cite: 328]",
+        "options": [
+            "The atom has low mobility and it is perfectly positioned [cite: 329]",
+            "The atom is in well-ordered region [cite: 330]",
+            "The region has low electron density, indicating atomic mobility, disorder or possible positional error [cite: 331]",
+            "The resolution of structure is high [cite: 332]"
+        ],
+        "correctAnswer": 2,
+        "week": 5
+    },
+    {
+        "question": "Which of the following database is used for the deposition of 3D structure of protein? [cite: 334]",
+        "options": [
+            "UniProt [cite: 335]",
+            "PROCHECK [cite: 336]",
+            "Expassy [cite: 337]",
+            "PDB [cite: 338]"
+        ],
+        "correctAnswer": 3,
+        "week": 5
+    },
+    {
+        "question": "In electron density map, what occurs when Fo is greater than Fc [cite: 341]",
+        "options": [
+            "Net structure factor in that region decreases [cite: 342]",
+            "Net structure factor is cancelled out [cite: 343]",
+            "The net structure factor amplitude is intensified [cite: 344]",
+            "No change occurs in net structure factor [cite: 345]"
+        ],
+        "correctAnswer": 2,
+        "week": 5
+    },
+    {
+        "question": "Which of the following is NMR based medical procedure to visualize internal body structure? [cite: 354]",
+        "options": [
+            "CT scan [cite: 355]",
+            "MRI [cite: 356]",
+            "X-ray [cite: 357]",
+            "Endoscopy [cite: 358]"
+        ],
+        "correctAnswer": 1,
+        "week": 6
+    },
+    {
+        "question": "Which of the following is non-destructive and non-invasive method used in medical diagnosis? [cite: 360]",
+        "options": [
+            "NMR [cite: 361]",
+            "HIFU [cite: 362]",
+            "Cryoablation [cite: 363]",
+            "Biopsy [cite: 364]"
+        ],
+        "correctAnswer": 0,
+        "week": 6
+    },
+    {
+        "question": "NMR characterizes organic and biological molecules by identifying carbon-hydrogen frameworks within molecules. [cite: 366, 367]",
+        "options": [
+            "True [cite: 368]",
+            "False [cite: 369]"
+        ],
+        "correctAnswer": 0,
+        "week": 6
+    },
+    {
+        "question": "NMR Spectroscopy is a quantitative technique. [cite: 371]",
+        "options": [
+            "True [cite: 372]",
+            "False [cite: 373]"
+        ],
+        "correctAnswer": 0,
+        "week": 6
+    },
+    {
+        "question": "For NMR experiment, the sample must be in which state? [cite: 375]",
+        "options": [
+            "Crystalline [cite: 376]",
+            "Gas phase [cite: 377]",
+            "Solution state [cite: 378]",
+            "Plasma state [cite: 379]"
+        ],
+        "correctAnswer": 2,
+        "week": 6
+    },
+    {
+        "question": "What is the unit of frequency [cite: 381]",
+        "options": [
+            "Hertz [cite: 382]",
+            "Joule [cite: 383]",
+            "Meter [cite: 384]",
+            "Second [cite: 385]"
+        ],
+        "correctAnswer": 0,
+        "week": 6
+    },
+    {
+        "question": "What is the purpose of shim in NMR spectroscopy? [cite: 387]",
+        "options": [
+            "To generate radiofrequency pulses [cite: 388]",
+            "To detect NMR signal [cite: 389]",
+            "To adjust homogeneity [cite: 390]",
+            "To increase sample temperature [cite: 393]"
+        ],
+        "correctAnswer": 2,
+        "week": 6
+    },
+    {
+        "question": "In physics, the precession of the magnetic moment of an object about an external magnetic field is called: [cite: 395, 396]",
+        "options": [
+            "Diffraction [cite: 397]",
+            "Resonance [cite: 398]",
+            "Larmor precession [cite: 399]",
+            "Chemical shift [cite: 400]"
+        ],
+        "correctAnswer": 2,
+        "week": 6
+    },
+    {
+        "question": "Coupling between H atoms that are separated by more than 3 bonds is called as: [cite: 402]",
+        "options": [
+            "Long range coupling [cite: 403]",
+            "W-coupling [cite: 404]",
+            "Geminal coupling [cite: 405]",
+            "Vicinal coupling [cite: 406]"
+        ],
+        "correctAnswer": 0,
+        "week": 6
+    },
+    {
+        "question": "Full form of TOCSY in NMR spectroscopy is: [cite: 408]",
+        "options": [
+            "Typical Correlation Spectroscopy [cite: 409]",
+            "Total Correlation Spectroscopy [cite: 409]",
+            "Transition Correlation Spectroscopy [cite: 410]",
+            "Tetrahedral Correlation Spectroscopy [cite: 410]"
+        ],
+        "correctAnswer": 1,
+        "week": 6
+    },
+    {
+        "question": "The characteristic \"fingerprint\" in spectroscopy arises because: [cite: 418]",
+        "options": [
+            "All elements emit identical wavelengths [cite: 419]",
+            "Different elements and compounds having specific wavelengths or frequencies [cite: 420]",
+            "All elements absorb identical wavelengths [cite: 421]",
+            "Light interacts only with the nucleus of atoms [cite: 422]"
+        ],
+        "correctAnswer": 1,
+        "week": 7
+    },
+    {
+        "question": "Which scientist first demonstrated that white light could be split into distinct colours of the rainbow using a prism? [cite: 424]",
+        "options": [
+            "Johann Kepler [cite: 425]",
+            "James Clerk Maxwell [cite: 426]",
+            "Sir Isaac Newton [cite: 427]",
+            "Galileo Galilei [cite: 428]"
+        ],
+        "correctAnswer": 2,
+        "week": 7
+    },
+    {
+        "question": "The speed of light in a vacuum (free space) is: [cite: 430]",
+        "options": [
+            "3×10^8 m/s [cite: 431]",
+            "3×10^9 m/s [cite: 432]",
+            "0.3×10^8 m/s [cite: 433]",
+            "0.3×10^9 m/s [cite: 434]"
+        ],
+        "correctAnswer": 0,
+        "week": 7
+    },
+    {
+        "question": "Protein UV absorbance at 280 nm mainly arises from: [cite: 436]",
+        "options": [
+            "Charged amino acid residues [cite: 437]",
+            "Peptide bonds [cite: 438]",
+            "Aromatic amino acids (Tryptophan, Tyrosine and Phenylalanine) [cite: 439]",
+            "Backbone carbonyl groups [cite: 440]"
+        ],
+        "correctAnswer": 2,
+        "week": 7
+    },
+    {
+        "question": "Circular Dichroism (CD) spectroscopy measures: [cite: 442]",
+        "options": [
+            "Difference between the absorbance of left and right circularly unpolarized light [cite: 443]",
+            "Difference between the absorbance of left and right circularly polarized light [cite: 444]",
+            "Emission differences of polarized light [cite: 445]",
+            "Emission differences of unpolarized light [cite: 446]"
+        ],
+        "correctAnswer": 1,
+        "week": 7
+    },
+    {
+        "question": "Fluorescence arises when a molecule returns from: [cite: 448]",
+        "options": [
+            "S1 to T1 to singlet ground state [cite: 450]",
+            "Si to So without change in spin [cite: 451]",
+            "Remain flexible [cite: 452]",
+            "T1 to So radiatively [cite: 453]"
+        ],
+        "correctAnswer": 1,
+        "week": 7
+    },
+    {
+        "question": "Quantum yield of fluorescence is defined as: [cite: 457]",
+        "options": [
+            "Number of photons absorbed / Number of Photons emitted [cite: 458]",
+            "Number of Photons emitted / Number of photons absorbed [cite: 459]",
+            "Number of photons absorbed / Number of photons scattered [cite: 459]",
+            "Number of photons scattered / Number of photons absorbed [cite: 459]"
+        ],
+        "correctAnswer": 1,
+        "week": 7
+    },
+    {
+        "question": "Which spectroscopy is most useful in providing information regarding the presence or absence of specific functional groups? [cite: 460, 461]",
+        "options": [
+            "UV-Vis Spectroscopy [cite: 462]",
+            "X-ray [cite: 463]",
+            "IR Spectroscopy [cite: 464]",
+            "Fourier-transform infrared spectroscopy [cite: 465]"
+        ],
+        "correctAnswer": 2,
+        "week": 7
+    },
+    {
+        "question": "For proteins with disulfide (S-S bridges), Raman bends are located in the spectral range of [cite: 467, 468]",
+        "options": [
+            "400-450 cm⁻¹ [cite: 469]",
+            "500-550 cm⁻¹ [cite: 470]",
+            "600-650 cm⁻¹ [cite: 471]",
+            "800-850 cm⁻¹ [cite: 472]"
+        ],
+        "correctAnswer": 1,
+        "week": 7
+    },
+    {
+        "question": "Which microscope is used for generating high-resolution images and 3-D reconstructions? [cite: 474]",
+        "options": [
+            "Confocal Microscope [cite: 475]",
+            "Raman Microscope [cite: 476]",
+            "X-ray Microscope [cite: 477]",
+            "Electron Microscope [cite: 477]"
+        ],
+        "correctAnswer": 0,
+        "week": 7
+    },
+    {
+        "question": "Cryogenic electron microscopy (cryo-EM) achieves near-atomic resolution of biomolecular structure because of? [cite: 484]",
+        "options": [
+            "Lens manufacturing and vacuum pumps [cite: 485]",
+            "Detector technology and software algorithms [cite: 486]",
+            "Sample freezing and metal coating [cite: 487]",
+            "Light optics and fluorescence filters [cite: 488]"
+        ],
+        "correctAnswer": 1,
+        "week": 8
+    },
+    {
+        "question": "For what was the 2017 Nobel Prize in Chemistry awarded to? [cite: 490]",
+        "options": [
+            "For inventing the first electron microscope [cite: 491]",
+            "For developing X-ray crystallography [cite: 492]",
+            "For developing cryo-EM for high-resolution biomolecular structure determination [cite: 493]",
+            "For developing NMR spectroscopy [cite: 494]"
+        ],
+        "correctAnswer": 2,
+        "week": 8
+    },
+    {
+        "question": "Chromatic aberration occurs because: [cite: 496]",
+        "options": [
+            "Each wavelength is refracted identically [cite: 497]",
+            "Each wavelength is refracted differently [cite: 498]",
+            "Blue light focuses farther than red light [cite: 499]",
+            "Red light focuses farther than blue light [cite: 500]"
+        ],
+        "correctAnswer": 1,
+        "week": 8
+    },
+    {
+        "question": "Single-particle cryo-EM falls under which category? [cite: 502]",
+        "options": [
+            "Cryo-Transmission EM [cite: 503]",
+            "Scanning Cryo-EM [cite: 504]",
+            "Electron crystallography [cite: 505]",
+            "Cryo-fluorescence microscopy [cite: 506]"
+        ],
+        "correctAnswer": 0,
+        "week": 8
+    },
+    {
+        "question": "Which of the following is correct about Plunge Freezing? [cite: 508]",
+        "options": [
+            "Sample is visualised in a native-like state [cite: 509]",
+            "Data Processing yield low-resolution image [cite: 510]",
+            "Doesn't provide 3D structural information [cite: 511]",
+            "Used for a limited range of specimens [cite: 512]"
+        ],
+        "correctAnswer": 0,
+        "week": 8
+    },
+    {
+        "question": "A major drawback of cryogenic visualisation compared with negative stain is: [cite: 514]",
+        "options": [
+            "Excessive electron scattering [cite: 515]",
+            "Low specimen contrast [cite: 516]",
+            "Larger required sample size [cite: 517]",
+            "Need for fluorescent dyes [cite: 518]"
+        ],
+        "correctAnswer": 1,
+        "week": 8
+    },
+    {
+        "question": "If 2D classes lack orientation distribution, what should be optimised first? [cite: 522]",
+        "options": [
+            "Grid material [cite: 522]",
+            "Microscope alignment [cite: 523]",
+            "Buffers, detergents, or plasma conditions [cite: 524]",
+            "Detector gain [cite: 525]"
+        ],
+        "correctAnswer": 2,
+        "week": 8
+    },
+    {
+        "question": "One early challenge in electron microscopy of biological material was: [cite: 527]",
+        "options": [
+            "Excessively high image contrast [cite: 528]",
+            "Inability to maintain samples hydrated under vacuum [cite: 529]",
+            "Over-magnification of biomolecules [cite: 530]",
+            "Lack of sufficient electron beam energy [cite: 531]"
+        ],
+        "correctAnswer": 1,
+        "week": 8
+    },
+    {
+        "question": "Which statement best describes the role of the Protein Data Bank (PDB)? [cite: 533]",
+        "options": [
+            "A database for computational protein models only [cite: 534]",
+            "A database for experimentally determined 3-D structures of macromolecules [cite: 535]",
+            "A database for protein sequences only [cite: 536]",
+            "A database for drug-protein complexes only [cite: 537]"
+        ],
+        "correctAnswer": 1,
+        "week": 8
+    },
+    {
+        "question": "The first tRNA structure to be deposited in the Protein Data Bank (PDB) was of: [cite: 539]",
+        "options": [
+            "Yeast phenylalanine tRNA [cite: 540]",
+            "E. coli initiator methionine tRNA [cite: 541]",
+            "E. coli alanine tRNA [cite: 542]",
+            "Yeast serine tRNA [cite: 543]"
+        ],
+        "correctAnswer": 0,
+        "week": 8
+    },
+    {
+        "question": "Which of the following is one major reason why visualisation is essential in structural biology? [cite: 551]",
+        "options": [
+            "It replaces the need for experimental work [cite: 552]",
+            "It provides a \"window to the unseen\" [cite: 553]",
+            "It removes the need for computational modelling [cite: 554]",
+            "It replaces the use of physical models [cite: 555]"
+        ],
+        "correctAnswer": 1,
+        "week": 9
+    },
+    {
+        "question": "The first X-ray crystallographic structure of myoglobin was built using: [cite: 557]",
+        "options": [
+            "Wooden models [cite: 558]",
+            "3D-printed polymer models [cite: 559]",
+            "Brass models [cite: 560]",
+            "Iron models [cite: 561]"
+        ],
+        "correctAnswer": 2,
+        "week": 9
+    },
+    {
+        "question": "Byron's Bender was originally designed to: [cite: 563]",
+        "options": [
+            "Bend wire to follow the backbone trace of a protein [cite: 564]",
+            "Fold proteins automatically from the sequence [cite: 565]",
+            "Build protein-nucleic acid complexes [cite: 566]",
+            "Build antibody-antigen complexes [cite: 567]"
+        ],
+        "correctAnswer": 0,
+        "week": 9
+    },
+    {
+        "question": "Which structural determination technique contributes the largest number of entries in the PDB? [cite: 569, 570]",
+        "options": [
+            "EM [cite: 571]",
+            "NMR [cite: 572]",
+            "Neutron diffraction [cite: 573]",
+            "X-ray crystallography [cite: 574]"
+        ],
+        "correctAnswer": 3,
+        "week": 9
+    },
+    {
+        "question": "In the FASTA format, sequence lines typically contain: [cite: 576]",
+        "options": [
+            "80 characters [cite: 577]",
+            "40 characters [cite: 578]",
+            "20 characters [cite: 579]",
+            "100 characters [cite: 580]"
+        ],
+        "correctAnswer": 0,
+        "week": 9
+    },
+    {
+        "question": "mmCIF is now the default format used by Protein Data Bank because: [cite: 582]",
+        "options": [
+            "It compresses the coordinates better [cite: 583]",
+            "It is flexible and extensible tag-value format for representation [cite: 584]",
+            "It is easier to visualise than PDB [cite: 585]",
+            "It is compatible with cryo-EM based structures [cite: 586]"
+        ],
+        "correctAnswer": 1,
+        "week": 9
+    },
+    {
+        "question": "COOT represent the atomic model primarily using: [cite: 590]",
+        "options": [
+            "Space-filling models only [cite: 591]",
+            "Ribbon diagrams [cite: 592]",
+            "Stick-model, with vectors representing chemical bonds [cite: 593]",
+            "Surface representation [cite: 594]"
+        ],
+        "correctAnswer": 2,
+        "week": 9
+    },
+    {
+        "question": "A major advantage of RasMol is that it: [cite: 596]",
+        "options": [
+            "Supports automated model refinement [cite: 597]",
+            "Provides a powerful command-line interface and Scriptable [cite: 598]",
+            "Supports automated modeling [cite: 599]",
+            "Can only run on UNIX systems [cite: 600]"
+        ],
+        "correctAnswer": 1,
+        "week": 9
+    },
+    {
+        "question": "Which visualisation platform is a Java-based program? [cite: 602]",
+        "options": [
+            "Qutemol [cite: 603]",
+            "VMD [cite: 604]",
+            "UCSF Chimera [cite: 605]",
+            "Jmol [cite: 606]"
+        ],
+        "correctAnswer": 3,
+        "week": 9
+    },
+    {
+        "question": "To measure the distance between two residues in PyMOL, which tool should be used? [cite: 608]",
+        "options": [
+            "Wizard > Measurement [cite: 609]",
+            "Display > Measurement [cite: 610]",
+            "Show Measurement [cite: 611]",
+            "Calculate > Measurement [cite: 612]"
+        ],
+        "correctAnswer": 0,
+        "week": 9
+    },
+    {
+        "question": "A hydrogen bond is primarily: [cite: 620]",
+        "options": [
+            "Electrostatic force of attraction between a hydrogen (H) atom and another electronegative atom bearing a lone pair of electrons [cite: 621, 622]",
+            "Electrostatic force of attraction between two hydrogen (H) atoms [cite: 623]",
+            "Electrostatic force of attraction between two electronegative atoms [cite: 624]",
+            "Electrostatic force of attraction between two electronegative atoms, out of which one bears a lone pair of electrons [cite: 625, 626]"
+        ],
+        "correctAnswer": 0,
+        "week": 10
+    },
+    {
+        "question": "Which task is included under \"Structure Repairing\"? [cite: 628]",
+        "options": [
+            "Addition of solvent [cite: 629]",
+            "Correcting rotamer conformations [cite: 630]",
+            "Generating topology files [cite: 631]",
+            "Running production MD [cite: 632]"
+        ],
+        "correctAnswer": 1,
+        "week": 10
+    },
+    {
+        "question": "The purpose of deleting hydrogen, solvent, and unwanted factors is to: [cite: 634]",
+        "options": [
+            "Reduce simulation temperature [cite: 635]",
+            "Create a clean PDB file for MD preparation [cite: 636]",
+            "Improve docking accuracy [cite: 637]",
+            "Increase protein folding rate [cite: 638]"
+        ],
+        "correctAnswer": 1,
+        "week": 10
+    },
+    {
+        "question": "The topology file prepared for MD simulation contains: [cite: 640]",
+        "options": [
+            "Only the initial 3D coordinates of all atoms in the system [cite: 641]",
+            "The complete sequence of simulation steps [cite: 642]",
+            "Bonds, angles, dihedrals of the system [cite: 643]",
+            "Time evolution of coordinates of the atoms [cite: 644]"
+        ],
+        "correctAnswer": 2,
+        "week": 10
+    },
+    {
+        "question": "Phase space for a molecular system is defined as a: [cite: 646]",
+        "options": [
+            "3D spatial mapping of atoms [cite: 647]",
+            "Representation of all possible states using position and momentum variables [cite: 648]",
+            "Graph of energy vs. time [cite: 649]",
+            "Trajectory of atoms over simulation [cite: 650]"
+        ],
+        "correctAnswer": 1,
+        "week": 10
+    },
+    {
+        "question": "Which ensemble maintains a constant Number of particles, Temperature and Volume? [cite: 652, 653]",
+        "options": [
+            "NVE [cite: 654]",
+            "NPT [cite: 655]",
+            "µVT [cite: 656]",
+            "NVT [cite: 657]"
+        ],
+        "correctAnswer": 3,
+        "week": 10
+    },
+    {
+        "question": "A global minimum on the potential energy surface represents: [cite: 661]",
+        "options": [
+            "A transition state [cite: 662]",
+            "A chemically unstable structure [cite: 663]",
+            "The most stable molecular conformation [cite: 664]",
+            "A saddle point [cite: 665]"
+        ],
+        "correctAnswer": 2,
+        "week": 10
+    },
+    {
+        "question": "During system processing in GROMACS, which command is responsible for converting PDB to a processed GROMACS structure? [cite: 667, 668]",
+        "options": [
+            "editconf [cite: 669]",
+            "solvate [cite: 670]",
+            "genion [cite: 671]",
+            "pdb2gmx [cite: 672]"
+        ],
+        "correctAnswer": 3,
+        "week": 10
+    },
+    {
+        "question": "A production MD run typically generates which key trajectory file? [cite: 674]",
+        "options": [
+            ".tpr [cite: 675]",
+            ".mdp [cite: 676]",
+            "xtc [cite: 677]",
+            ".cpt [cite: 678]"
+        ],
+        "correctAnswer": 2,
+        "week": 10
+    },
+    {
+        "question": "In carbonic anhydrase, the active site zinc ion is coordinated by: [cite: 680]",
+        "options": [
+            "Two lysines and a water molecule [cite: 681]",
+            "Three histidines and a water molecule [cite: 682]",
+            "Three cysteines [cite: 683]",
+            "Two histidines and an aspartate [cite: 684]"
+        ],
+        "correctAnswer": 1,
+        "week": 10
+    },
+    {
+        "question": "Protein engineering is defined primarily as: [cite: 692]",
+        "options": [
+            "Increasing the number of genes in an organism [cite: 693]",
+            "Modifying amino acid sequences to improve or create new protein functions [cite: 694]",
+            "Removing unwanted protein domains [cite: 695]",
+            "Changing mRNA structure to enhance translation [cite: 696]"
+        ],
+        "correctAnswer": 1,
+        "week": 11
+    },
+    {
+        "question": "Which interaction is primarily responsible for stabilising a-helices and ẞ-sheets? [cite: 698]",
+        "options": [
+            "Ionic bonds [cite: 698]",
+            "Hydrogen bonds [cite: 699]",
+            "Disulfide bridges [cite: 700]",
+            "Metal coordination [cite: 701]"
+        ],
+        "correctAnswer": 1,
+        "week": 11
+    },
+    {
+        "question": "Tertiary structure stability arises mainly from: [cite: 703]",
+        "options": [
+            "Covalent interactions [cite: 704]",
+            "Hydrophobic and polar side-chain interactions [cite: 705]",
+            "Repeating peptide units [cite: 706]",
+            "Hydrophilic interactions [cite: 707]"
+        ],
+        "correctAnswer": 1,
+        "week": 11
+    },
+    {
+        "question": "Which of the following cannot be engineered in proteins? [cite: 709]",
+        "options": [
+            "Thermal stability [cite: 710]",
+            "Thermodynamic stability [cite: 711]",
+            "Genetic recombination rate [cite: 712]",
+            "Environmental stability [cite: 713]"
+        ],
+        "correctAnswer": 2,
+        "week": 11
+    },
+    {
+        "question": "Increasing catalytic rates typically requires: [cite: 715]",
+        "options": [
+            "Introducing more charged residues [cite: 716]",
+            "Increased binding to the transition state [cite: 717]",
+            "Increasing protein length [cite: 718]",
+            "Reducing k_cat and K_m [cite: 719]"
+        ],
+        "correctAnswer": 1,
+        "week": 11
+    },
+    {
+        "question": "Which factor does NOT contribute to protein stability as described? [cite: 721]",
+        "options": [
+            "Hydrophobicity [cite: 722]",
+            "Disulfide bridges [cite: 723]",
+            "Salt bridges [cite: 724]",
+            "Peptide bonds [cite: 725]"
+        ],
+        "correctAnswer": 3,
+        "week": 11
+    },
+    {
+        "question": "A key advantage of de novo protein design is that: [cite: 729]",
+        "options": [
+            "Natural proteins are always easier to modify [cite: 730]",
+            "Designed proteins are more forgiving [cite: 731]",
+            "It eliminates the need for structural prediction [cite: 732]",
+            "It guarantees faster folding [cite: 733]"
+        ],
+        "correctAnswer": 1,
+        "week": 11
+    },
+    {
+        "question": "Directed evolution relies on which fundamental principle? [cite: 735]",
+        "options": [
+            "Intended variation at a defined level of randomness [cite: 736]",
+            "Avoiding random mutations [cite: 737]",
+            "Predicting the final structure before mutagenesis [cite: 738]",
+            "Eliminating sequence variation [cite: 739]"
+        ],
+        "correctAnswer": 0,
+        "week": 11
+    },
+    {
+        "question": "Enantioselectivity of Enzymes defines: [cite: 741]",
+        "options": [
+            "Act on a broad range of structurally related substrates [cite: 742]",
+            "Bind to a substrate and lower the activation energy of a reaction [cite: 743]",
+            "Bind to a substrate and increase the activation energy of a reaction [cite: 744]",
+            "Performance enhancement in asymmetric catalysis [cite: 745]"
+        ],
+        "correctAnswer": 3,
+        "week": 11
+    },
+    {
+        "question": "The total number of possible variants of a protein with n residues is represented mathematically as: [cite: 747]",
+        "options": [
+            "20 [cite: 748]",
+            "20^(n+1) [cite: 749]",
+            "20n-1 [cite: 750]",
+            "20/(n+1) [cite: 751]"
+        ],
+        "correctAnswer": 0,
+        "week": 11
+    }
+]
