@@ -58,12 +58,17 @@ export function shuffle(items) {
   return next;
 }
 
-export function getQuizQuestions({ mode, week, randomSequence }) {
+export function getQuizQuestions({ mode, week, weekStart, weekEnd, randomSequence }) {
   const allQuestions = getQuestions();
-  const filtered =
-    mode === "week"
-      ? allQuestions.filter((question) => question.week === Number(week))
-      : allQuestions;
+  let filtered = allQuestions;
+
+  if (mode === "week") {
+    filtered = allQuestions.filter((question) => question.week === Number(week));
+  } else if (mode === "range") {
+    const start = Number(weekStart);
+    const end = Number(weekEnd);
+    filtered = allQuestions.filter((question) => question.week >= start && question.week <= end);
+  }
 
   return randomSequence ? shuffle(filtered) : filtered;
 }

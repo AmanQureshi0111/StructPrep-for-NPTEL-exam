@@ -72,11 +72,18 @@ function QuizPage() {
 
   const mode = state?.mode || "all";
   const week = state?.week;
+  const weekStart = state?.weekStart;
+  const weekEnd = state?.weekEnd;
   const randomSequence = Boolean(state?.randomSequence);
   const soundEnabled = state?.soundEnabled ?? true;
-  const storageKey = `structprep-progress-${mode}-${week ?? "all"}-${randomSequence ? "random" : "ordered"}`;
+  const selectionKey =
+    mode === "week" ? `week-${week}` : mode === "range" ? `weeks-${weekStart}-${weekEnd}` : "all";
+  const storageKey = `structprep-progress-${mode}-${selectionKey}-${randomSequence ? "random" : "ordered"}`;
 
-  const questions = useMemo(() => getQuizQuestions({ mode, week, randomSequence }), [mode, randomSequence, week]);
+  const questions = useMemo(
+    () => getQuizQuestions({ mode, week, weekStart, weekEnd, randomSequence }),
+    [mode, randomSequence, week, weekEnd, weekStart]
+  );
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [savedEvaluations, setSavedEvaluations] = useState([]);
@@ -159,7 +166,7 @@ function QuizPage() {
         answers: finalAnswers,
         elapsedSeconds,
         wrongAnswerCount: finalWrongAnswerCount,
-        config: { mode, week, randomSequence, soundEnabled }
+        config: { mode, week, weekStart, weekEnd, randomSequence, soundEnabled }
       }
     });
   }
@@ -240,7 +247,11 @@ function QuizPage() {
   return (
     <main className="page">
       <section className="card quiz-card">
-        <QuizProgress current={index + 1} total={questions.length} label={mode === "week" ? `Week ${week}` : "All Weeks"} />
+        <QuizProgress
+          current={index + 1}
+          total={questions.length}
+          label={mode === "week" ? `Week ${week}` : mode === "range" ? `Weeks ${weekStart}-${weekEnd}` : "All Weeks"}
+        />
         <p className="muted timer">Time: {formatSeconds(elapsedSeconds)}</p>
         <div className="hearts" aria-label={`Wrong answers ${wrongAnswerCount} out of ${MAX_WRONG_ANSWERS}`}>
           {[0, 1, 2].map((heartIndex) => (

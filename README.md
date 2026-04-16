@@ -6,6 +6,7 @@ A responsive quiz web app for **NPTEL Structural Biology exam preparation** buil
 ## Features
 
 - Weekly practice mode (dynamic week list from question data)
+- Half-syllabus practice mode (Weeks 1-6 and Weeks 7-12)
 - All-questions practice mode
 - Random question order toggle
 - Auto-next on answer selection

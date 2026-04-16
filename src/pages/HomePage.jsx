@@ -43,6 +43,24 @@ function HomePage() {
           </button>
           <button
             type="button"
+            className="btn btn-week"
+            onClick={() =>
+              navigate("/quiz", { state: { mode: "range", weekStart: 1, weekEnd: 6, randomSequence, soundEnabled } })
+            }
+          >
+            Half Questions (Weeks 1-6)
+          </button>
+          <button
+            type="button"
+            className="btn btn-week"
+            onClick={() =>
+              navigate("/quiz", { state: { mode: "range", weekStart: 7, weekEnd: 12, randomSequence, soundEnabled } })
+            }
+          >
+            Half Questions (Weeks 7-12)
+          </button>
+          <button
+            type="button"
             className="btn btn-secondary"
             onClick={() => navigate("/quiz", { state: { mode: "all", randomSequence, soundEnabled } })}
           >
