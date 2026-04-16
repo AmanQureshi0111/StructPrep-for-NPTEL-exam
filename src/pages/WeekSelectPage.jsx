@@ -5,7 +5,8 @@ import { getAvailableWeeks } from "../utils/questionUtils";
 function WeekSelectPage() {
   const navigate = useNavigate();
   const { state } = useLocation();
-  const randomSequence = Boolean(state?.randomSequence);
+  const randomQuestions = Boolean(state?.randomQuestions);
+  const randomAnswers = Boolean(state?.randomAnswers);
   const soundEnabled = state?.soundEnabled ?? true;
   const weeks = useMemo(() => getAvailableWeeks(), []);
 
@@ -21,7 +22,9 @@ function WeekSelectPage() {
               key={week}
               type="button"
               className="btn btn-week"
-              onClick={() => navigate("/quiz", { state: { mode: "week", week, randomSequence, soundEnabled } })}
+              onClick={() =>
+                navigate("/quiz", { state: { mode: "week", week, randomQuestions, randomAnswers, soundEnabled } })
+              }
             >
               Week {week}
             </button>

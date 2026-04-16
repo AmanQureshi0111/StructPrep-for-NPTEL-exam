@@ -58,7 +58,24 @@ export function shuffle(items) {
   return next;
 }
 
-export function getQuizQuestions({ mode, week, weekStart, weekEnd, randomSequence }) {
+function shuffleQuestionOptions(question) {
+  const optionEntries = question.options.map((option, originalIndex) => ({ option, originalIndex }));
+  const shuffledEntries = shuffle(optionEntries);
+  const remapIndexBySource = new Map(shuffledEntries.map((entry, index) => [entry.originalIndex, index]));
+  const remappedCorrectAnswers = question.correctAnswer
+    .map((sourceIndex) => remapIndexBySource.get(sourceIndex))
+    .filter((index) => typeof index === "number")
+    .filter((index) => index >= 0)
+    .sort((a, b) => a - b);
+
+  return {
+    ...question,
+    options: shuffledEntries.map((entry) => entry.option),
+    correctAnswer: remappedCorrectAnswers
+  };
+}
+
+export function getQuizQuestions({ mode, week, weekStart, weekEnd, randomQuestions, randomAnswers }) {
   const allQuestions = getQuestions();
   let filtered = allQuestions;
 
@@ -70,5 +87,6 @@ export function getQuizQuestions({ mode, week, weekStart, weekEnd, randomSequenc
     filtered = allQuestions.filter((question) => question.week >= start && question.week <= end);
   }
 
-  return randomSequence ? shuffle(filtered) : filtered;
+  const orderedQuestions = randomQuestions ? shuffle(filtered) : filtered;
+  return randomAnswers ? orderedQuestions.map(shuffleQuestionOptions) : orderedQuestions;
 }

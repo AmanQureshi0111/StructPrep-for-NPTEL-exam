@@ -48,7 +48,7 @@ function ResultPage() {
   const questions = state?.questions ?? [];
   const answers = state?.answers ?? [];
   const elapsedSeconds = Number(state?.elapsedSeconds) || 0;
-  const config = state?.config ?? { mode: "all", randomSequence: false };
+  const config = state?.config ?? { mode: "all", randomQuestions: false, randomAnswers: false };
 
   const result = useMemo(() => {
     let correct = 0;

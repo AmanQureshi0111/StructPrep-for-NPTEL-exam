@@ -74,16 +74,18 @@ function QuizPage() {
   const week = state?.week;
   const weekStart = state?.weekStart;
   const weekEnd = state?.weekEnd;
-  const randomSequence = Boolean(state?.randomSequence);
+  const randomQuestions = Boolean(state?.randomQuestions);
+  const randomAnswers = Boolean(state?.randomAnswers);
   const soundEnabled = state?.soundEnabled ?? true;
   const selectionKey =
     mode === "week" ? `week-${week}` : mode === "range" ? `weeks-${weekStart}-${weekEnd}` : "all";
-  const storageKey = `structprep-progress-${mode}-${selectionKey}-${randomSequence ? "random" : "ordered"}`;
+  const storageKey = `structprep-progress-${mode}-${selectionKey}-${randomQuestions ? "q-random" : "q-ordered"}-${randomAnswers ? "a-random" : "a-ordered"}`;
 
-  const questions = useMemo(
-    () => getQuizQuestions({ mode, week, weekStart, weekEnd, randomSequence }),
-    [mode, randomSequence, week, weekEnd, weekStart]
+  const generatedQuestions = useMemo(
+    () => getQuizQuestions({ mode, week, weekStart, weekEnd, randomQuestions, randomAnswers }),
+    [mode, randomAnswers, randomQuestions, week, weekEnd, weekStart]
   );
+  const [questions, setQuestions] = useState(generatedQuestions);
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState([]);
   const [savedEvaluations, setSavedEvaluations] = useState([]);
@@ -102,21 +104,25 @@ function QuizPage() {
   useEffect(() => {
     const savedRaw = localStorage.getItem(storageKey);
     if (!savedRaw) {
+      setQuestions(generatedQuestions);
       setLoadedFromStorage(true);
       return;
     }
     const saved = parseSavedProgress(savedRaw);
     if (!saved || !Array.isArray(saved.answers) || typeof saved.index !== "number") {
+      setQuestions(generatedQuestions);
       setLoadedFromStorage(true);
       return;
     }
+    const restoredQuestions = Array.isArray(saved.questions) && saved.questions.length > 0 ? saved.questions : generatedQuestions;
+    setQuestions(restoredQuestions);
     setAnswers(saved.answers);
     setSavedEvaluations(Array.isArray(saved.savedEvaluations) ? saved.savedEvaluations : []);
     setWrongAnswerCount(Math.min(Math.max(Number(saved.wrongAnswerCount) || 0, 0), MAX_WRONG_ANSWERS));
-    setIndex(saved.index);
+    setIndex(Math.min(Math.max(saved.index, 0), restoredQuestions.length > 0 ? restoredQuestions.length - 1 : 0));
     setElapsedSeconds(Number(saved.elapsedSeconds) || 0);
     setLoadedFromStorage(true);
-  }, [storageKey]);
+  }, [generatedQuestions, storageKey]);
 
   useEffect(() => {
     if (!loadedFromStorage) {
@@ -126,13 +132,14 @@ function QuizPage() {
       storageKey,
       JSON.stringify({
         index,
+        questions,
         answers,
         savedEvaluations,
         wrongAnswerCount,
         elapsedSeconds
       })
     );
-  }, [answers, elapsedSeconds, index, loadedFromStorage, savedEvaluations, storageKey, wrongAnswerCount]);
+  }, [answers, elapsedSeconds, index, loadedFromStorage, questions, savedEvaluations, storageKey, wrongAnswerCount]);
 
   useEffect(() => {
     if (!loadedFromStorage) {
@@ -166,7 +173,7 @@ function QuizPage() {
         answers: finalAnswers,
         elapsedSeconds,
         wrongAnswerCount: finalWrongAnswerCount,
-        config: { mode, week, weekStart, weekEnd, randomSequence, soundEnabled }
+        config: { mode, week, weekStart, weekEnd, randomQuestions, randomAnswers, soundEnabled }
       }
     });
   }
