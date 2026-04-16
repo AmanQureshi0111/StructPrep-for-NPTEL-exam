@@ -82,6 +82,18 @@ function HomePage() {
             All Questions Practice
           </button>
         </div>
+
+        <section className="contact-box">
+          <p className="muted">For updates, contact:</p>
+          <div className="contact-links">
+            <a className="link" href="https://www.linkedin.com/in/aman-qureshi-ab7811253/" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+            <a className="link" href="mailto:amanq7362@gmail.com">
+              amanq7362@gmail.com
+            </a>
+          </div>
+        </section>
       </section>
     </main>
   );
